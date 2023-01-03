@@ -6,20 +6,17 @@ import Head from "next/head";
 
 
 function MyApp({ Component, pageProps }) {
-  console.log("NEXT_MAINTENANCE_MODE: ",  process.env.NEXT_MAINTENANCE_MODE)
+  return <Component {...pageProps} />
+  // console.log("NEXT_MAINTENANCE_MODE: " + process.env.NEXT_MAINTENANCE_MODE)
+  // if (process.env.NEXT_MAINTENANCE_MODE === 'false') {
+  //    console.log("A")
+  //    return <Component {...pageProps} />
+  // }
 
-  if (process.env.MAINTENANCE_MODE === 'false') {
-     return (
-     <> 
-        <Component {...pageProps} />
-     </>
-     )
-  }
-
-  else {
-    return <Maintenance/>
-  }
-  
+  // else {
+  //   console.log("B")
+  //   return <Maintenance/>
+  // }
 }
 
 export default MyApp
