@@ -24,3 +24,12 @@ This is a project to create a platform for open e-learning. The goal is to creat
 - [ ] Create a bookmark
 - [ ] Create a report
 - [ ] Create a notification
+
+# My contact data
+```
+Marlon Falcón Hernández | Valencia | Spain
+* ERP, CRM y Software: https://www.marlonfalcon.com
+» Email: mfalconsoft@gmail.com , falconsof.3d@gmail.com
+» Github: https://github.com/falconsoft3d
+» linkedin: https://linkedin.com/in/marlon-falcón-3a2aa9a4
+```
